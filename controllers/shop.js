@@ -96,3 +96,6 @@ exports.getOrders = (req, res, next) => {
         pageTitle: 'Your Orders',
         orders: orders
       });
+    })
+    .catch(err => console.log(err));
+};
